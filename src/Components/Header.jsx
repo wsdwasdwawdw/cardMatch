@@ -2,10 +2,9 @@ function Header() {
 
     return(
         <>
-            <h1>Get started</h1>   
-            <h2>Welcome to our app</h2>
-            <h3>I am Jason Karl Rosales</h3>
-
+            <div className="p-4 flex justify-center align-center border">
+                <h1 className="text-[24px] font-bold">Card Matching Game</h1>
+            </div>
         </>
     )
 }
