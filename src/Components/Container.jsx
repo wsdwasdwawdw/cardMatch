@@ -1,25 +1,17 @@
 
 function Container(){
-    const demo = (color) => {
-        if(color === "blue"){
-            alert("div is blue");
-        }
-        else{
-            alert("div is green");
-        }
-    }
-    
-    const shoot = () => {
-        alert("this is an alert");
+    const create = () => {
+        const input = document.querySelector('.input');
+        const value = input.value;
+        console.log(value);
     }
     
     return (
         <>
-            <div className="p-2 flex justify-center align-center border">
-                <div onClick={() => demo("blue")} className="h-10 w-10 bg-blue-500"></div>
-                <div onClick={() => demo("green")} className="h-10 w-10 bg-green-500"></div>
+            <div className="flex gap-1">
+                <input type="number" className="input border px-1"/>
+                <button className="create border px-1">Create</button>
             </div>
-            <button onClick={shoot}>this is an alert</button>
         </>
     );
 }
