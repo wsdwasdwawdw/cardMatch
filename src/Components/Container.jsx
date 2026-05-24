@@ -27,8 +27,8 @@ function Container(){
                 </button>
             </div>
 
-            <div>
-                
+            <div className="container mt-2 border p-2">
+                <a href="../Pages/EasyPage.jsx">Easy Mode</a>
             </div>
         </>
 
