@@ -1,7 +1,7 @@
 function EaseyPage() {
     return(
         <>
-        
+            asd
         
         </>
     );
