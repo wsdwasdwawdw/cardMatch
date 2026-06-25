@@ -3,6 +3,7 @@ function EasyPage() {
         <div>
             <h1>Easy Page</h1>
             <p>This is the easy difficulty page.</p>
+            <p>Awesome right?</p>
         </div>
     )
 }
