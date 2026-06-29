@@ -8,6 +8,8 @@ function MediumPage() {
                 <h1>I dont know how to do this properly</h1>
 
                 <h1>I dont know how to do this properly again</h1>
+
+                <p>Awesome right?</p>
             </div>
         </>
     )
